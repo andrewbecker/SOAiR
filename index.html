@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=1100, target-densitydpi=high-dpi">
+		<meta description="SOAiR is a ficticious airline which started as a PSD file for a class">
+
+		<title>SOAiR Airlines</title>
+		<link rel="stylesheet" type="text/css" href="css/output.css">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		
+ 	</head>
+	<body>
+		<div id="wrapper">
+			<div class="upper">
+				<div class="innerWrap">
+					<header>
+						<a href="index.html" alt="SOAiR Airlines"><img class="mainLogo" src="images/logo.png" alt="SOAiR Airlines"></a>
+						<div class="topNav">
+							<ul>
+								<li><a href="#">Account Login</a></li>
+								<li>|</li>
+								<li><a href="#">Signup to Earn Rewards</a></li>
+								<li>|</li>
+								<li><a href="#">Help</a></li>
+							</ul>
+						</div><!-- topnav -->
+						<nav class="mainNav">
+							<ul>
+								<li>Home</li>
+								<li>Book A Flight</li>
+								<li>Travel Guide</li>
+								<li>Deals &amp; Offers</li>
+								<li>Rewards</li>
+							</ul>
+						</nav>
+						<div class="clear"></div>
+					</header>
+					<div class="cta">
+						<img class="" src="images/ctaImg1.jpg" alt="SOAiR to your favorite caribbean paradise" data-image="images/ctaImg1.jpg">
+						<img class="no_show dark" data-image="images/ctaImg2.jpg" alt="SOAiR to your favorite caribbean paradise">
+						<img class="no_show" data-image="images/ctaImg3.jpg" alt="SOAiR to your favorite caribbean paradise">
+						<form class="deals_form">
+							<h2>Find great deals</h2>
+							<label for="deparing_from">Departing From</label>
+							<input type="text" id="departingAirport" name="departing_from" class="large">
+							<label for="arriving_in">Arriving In</label>
+							<input type="text" id="arrivingAirport" name="arriving_in" class="large">
+							<label for="depart_on">depart on</label>
+							<input type="text" id="depart_date" name="depart_on" class="small">
+							<label for="return_on">Return On</label>
+							<input type="text" id="return_date" name="return_on" class="small">
+							<input class="submitBtn" type="submit" value="Search Flights">
+						</form>
+						<div id="departingresults"></div><!-- departingresults -->
+						<div id="arrivalresults"></div><!-- results -->
+						<div class="cta_nav"></div><!-- cta_nav -->
+					</div><!-- cta -->
+					<div class="mini_cta" id="check_in">
+						<h2>Flight Check In</h2>
+						<p>Check in with your email address</p>
+						<input type="text">
+						<a id="check_in_btn" href="#">Check In</a>
+						<p><a href="#">More Check In Options</a></p>
+					</div><!-- mini_cta -->
+					<div class="mini_cta">
+						<div class="background_mini_cta">
+							<img src="images/rewardImage_02.jpg" alt="none">
+						</div>
+					</div><!-- mini_cta -->
+					<div class="mini_cta" id="offers">
+						<h2>Special Offers</h2>
+						<a href="#">View all offers</a>
+						<aside>
+							<p>Click n' Save deals of the week starting at $64 one-way. Book by Monday &amp; save.</p>
+						</aside>
+						<aside>
+							<p>Warm up at the beaches of Northwest Florida. Flights to/from Panama City Beach on sale.</p>
+						</aside>
+					</div><!-- mini_cta -->
+				</div><!-- innerwrap -->
+				<div class="clear"></div>
+			</div><!--upper-->
+			<div class="lower">
+				<div class="innerWrap">
+					<footer>
+						<div class="col">
+							<h3>My Account</h3>
+							<ul>
+								<li><a href="#">Login</a></li>
+								<li><a href="#">Sign up to Earn Rewards</a></li>
+								<li><a href="#">Forgot Username/Password</a></li>
+							</ul>
+						</div><!-- col -->
+						<div class="col">
+							<h3>Customer Service</h3>
+							<ul>
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">FAQs</a></li>
+								<li><a href="#">Travel Tools</a></li>
+								<li><a href="#">Route Map</a></li>
+								<li><a href="#">Baggage Policies</a></li>
+								<li><a href="#">Refunds</a></li>
+							</ul>
+						</div><!-- col -->
+						<div class="col">
+							<h3>About SOAiR</h3>
+							<ul>
+								<li><a href="#">Mission Statement</a></li>
+								<li><a href="#">Press Room</a></li>
+								<li><a href="#">Investor Relations</a></li>
+								<li><a href="#">Careers</a></li>
+								<li><a href="#">Travel Agents</a></li>
+								<li><a href="#">Legal Information</a></li>
+							</ul>
+						</div><!-- col -->
+						<div class="copyright"><span>&copy;2015 andybecker.me</span></div>
+					</footer>
+				</div><!-- innerWrap -->
+			</div><!-- lower -->
+		</div><!--wrapper-->
+	</body>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/script-min.js"></script>
+	<!--<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/datepicker.js"></script>
+	<script type="text/javascript" src="js/slideshow.js"></script>
+	<script type="text/javascript" src="js/airport-search.js"></script>-->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-48872862-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+</html>
